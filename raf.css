@@ -1,0 +1,35 @@
+div.a{
+background: linear-gradient(135deg ,red,orange  );
+
+}
+
+    a{
+
+
+a:visited{
+color: black
+}
+a:hover{
+color: white
+}
+
+color: black;
+font-size: 15px;
+font-weight: 10px;
+padding:45px;
+
+}
+body{
+  background: linear-gradient(135deg ,black,grey );
+}
+img{
+  margin-top: 20px;
+}
+border{
+  border-radius: 20px;
+  background:linear-gradient(135deg,white,grey);
+  box-sizing:15px; 
+}
+h1{
+  font-size: 20px;
+}
