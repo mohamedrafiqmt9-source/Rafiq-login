@@ -10,6 +10,8 @@
 <body>
   
     <div class="a">
+<div id="content">
+    <div id="image">
     <b>
     <a href="/Home.html">Home</a>
     <a href="https://www.linkedin.com/in/mohamed-rafiq-m-221591351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin Profile</a>
@@ -24,12 +26,30 @@
    <img  src="/Screenshot_20260223_150600_Drive.jpg" height="260px">
    </center>
   </div>
+</div>
+</div>
   <div class="a">
     <h1>91-8939847909
 mohamedrafiqmt9@gmail.com
 No.383, 5th Main Road, M.K.B Nagar,Vyasarpad Chennal-600 039.<h1>
   </div>
-  
+    <script>
+    var indexvalue =0;
+    function slideshow(){
+      setTimeout(slideshow,2500)
+      var x;
+      const img= document.querySelectorAll("img");
+      for( x=0;x<img.length;x++){
+        img[x].style.display="none";
+      }
+      indexvalue++;
+      if( indexvalue >img.length){indexvalue=1}
+              img[indexvalue-1].style.display="block";
+              
+
+    }
+    slideshow();
+  </script>
 </body>
 
 </html>
