@@ -33,3 +33,19 @@ border{
 h1{
   font-size: 20px;
 }
+}
+.content{
+  height: 300px;
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 1px 1px  15px black;
+}
+.content.image{
+  height: 100%;
+  width: 100%;
+  
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
